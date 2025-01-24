@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/bg.png') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c62828; /* Dark red */
+    padding: 15px 30px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #ffeb3b; /* Yellow hover effect */
+}
+
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.8); /* Semi-transparent grey */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px; /* Limit width for better readability */
+}
+
+main img {
+    height: 100px; /* Resize logo in main section */
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+input {
+    padding: 10px;
+    width: 80%; /* Responsive width */
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none; /* Remove outline on focus */
+    font-size: 16px; /* Increase font size */
+}
+
+input::placeholder {
+    color: #ccc; /* Placeholder text color */
+}
+
+h2 {
+    font-size: 24px; /* Size for main headings */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+h3 {
+    font-size: 20px; /* Size for subheadings */
+    margin-top: 20px; /* Space above subheading */
+    margin-bottom: 10px; /* Space below subheading */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+ul li {
+    font-size: 18px; /* Font size for list items */
+    margin: 10px 0; /* Space between list items */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffeb3b; /* Yellow background */
+    color: #c62828; /* Dark red text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd600; /* Darker yellow on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #c62828; /* Dark red */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
